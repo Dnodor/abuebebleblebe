@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(153, 51, 153);
+    color: white;
+    font-family: "DM Serif Text", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+button {
+    background-color: #000000;
+    color: white;
+    font-family: "DM Serif Text", system-ui;
+}
+.passo {
+    display: none;
+}
+.passo.ativo {
+    display:block;
+}
+main {
+    text-align: center;
+    max-width: 90%;
+}
+img {
+    max-width: 90%;
+}

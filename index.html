@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assassino!!!!!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>Você é um detetive a procura de um assassino. A primeira pista aponta para dois locais: um prédio e um asilo, ambos abandonados. Por onde começar?</p>
+            <button class="btn-proximo" data-proximo="1">Prédio</button>
+            <button class="btn-proximo" data-proximo="2">Asilo</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>O prédio é assustador e tem diversos drogados por ali. E agora?</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a próxima pista</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Chegando no asilo você descobre que tem duas pessoas que sabem algo sobre o assassino. Quem você escolhe para isso?</p>
+            <button class="btn-proximo" data-proximo="5">Falar com um velho</button>
+            <button class="btn-proximo" data-proximo="6">Falar com um louco</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
